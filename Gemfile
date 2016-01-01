@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'bootstrap-sass'
+gem 'figaro', '1.0'
+gem 'devise'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
@@ -48,4 +51,3 @@ group :development do
   gem 'spring'
   gem 'sqlite3'
 end
-
